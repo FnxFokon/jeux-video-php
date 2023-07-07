@@ -1,0 +1,48 @@
+TP Projet Site Web "Actualités jeux vidéos"
+
+Intégrer comme sur la maquette.
+La BDD est fournie remplie.
+Les images sont fournies
+
+La BDD contient:
+- "console": Type de console
+- "game_console": console disponible par jeux (table de mapping)
+- "jeu": informations du jeu
+- "note": note pour le jeu
+- "restriction_age": la restriction d'age du jeu (PEGI)
+
+Le site se compose de 3 pages:
+- Accueil: Liste tous les jeux disponible. // accueil	
+- Liste: Liste les jeux avec filtrage par console. // list
+- Détail: Détail d'un jeu particulier. detail
+
+Images des jeux + Image des restrictions d'age:
+A stocker dans un dossier dédié (nom au choix).
+
+
+Menus:
+- "Tous les jeux": Lien vers liste complète.
+- "Par console": Sous-menu construit à partir de la BDD avec liens vers la page de liste préfiltrée sur la console choisie.
+(mettre le nombre de jeux disponible par console: ex: PS4 (9)
+
+Détail:
+- Informations du jeu: 
+ => image, 
+ => titre,
+ => description, 
+ => date de sortie,(au format jour/mois/année)
+ => l'affichage du PEGI ( icone + age)
+ => Les avis (presse et utilisateur) 
+ => liste des différentes consoles pour lesquelles le jeu est disponible ( sous forme de badge)
+
+
+BONUS (à faire si tout est terminé):
+
+- Dans la liste:
+  => Tri par prix croissant/décroissant
+  => Tri par meilleur note (presse et utilisateur)
+  => tri par tranche d'age
+  => Pagination (4 jeux par page)
+  => Créer une connexion et pouvoir insérer un nouveau jeu
+  => upload d'images
+  
