@@ -1,6 +1,6 @@
 <?php
 
-
+// Fonction de rendu de tous les jeux sur la page index.php
 function render_all_game($game)
 {
     // Mon chiffre étant stocker sans virgule entre les valeur je traite mon chiffre pour reintégré la virgule
@@ -27,6 +27,7 @@ function render_all_game($game)
 }
 
 
+// Fonction de rendu de toutes les consoles dans la navbar
 function render_all_console($console)
 {
 ?>
@@ -38,9 +39,9 @@ function render_all_console($console)
 <?php
 }
 
+// Fonction de rendu d'un jeux sur la page detail.php
 function render_game_by_id($game)
 {
-
 ?>
     <div class="card mt-20" style="width: 100%; height: auto;">
         <div class="row g-0">
@@ -78,6 +79,7 @@ function render_game_by_id($game)
 <?php
 }
 
+// Fonction de rendu de toutes les consoles disponibles pour un jeu sous forme de badge
 function render_all_console_by_game_id($console)
 {
 ?>
@@ -85,10 +87,11 @@ function render_all_console_by_game_id($console)
 <?php
 }
 
+// Fonction de rendu de tous les jeux disponibles en fonctions des notes (utilisateur et media)
 function render_all_game_note($game)
 {
     // Mon chiffre étant stocker sans virgule entre les valeur je traite mon chiffre pour reintégré la virgule
-    // Je traite tous les cas de figure
+    // et je traite tous les cas de figure
 
     if ($game['prix'] == 0) {
         // Si mon prix est égale à 0 alors il est gratuit
@@ -119,6 +122,8 @@ function render_all_game_note($game)
 
 <?php
 }
+
+// Fonction de rendu de tous les jeux seulon l'age
 function render_all_game_age($game)
 {
     // Mon chiffre étant stocker sans virgule entre les valeur je traite mon chiffre pour reintégré la virgule

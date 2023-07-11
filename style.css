@@ -42,6 +42,8 @@ h1{
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 } 
+
+/* ------------------------ CARD des details des jeux ------------------------ */
 .card{
     width: 30%;
     height: 600px;
@@ -92,6 +94,9 @@ h1{
     height: 100%;
     object-fit: cover;
 }
+
+
+
 
 /* ------------------------ FORM ------------------------ */
 

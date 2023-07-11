@@ -6,7 +6,7 @@ require_once './template/_navbar.php';
 require_once './template/_form.php';
 
 
-
+// Je donne les arguments pour que ma fonction form affiche ce que je veux
 form(
     "Se connecter",
     "./api/authentication.php",

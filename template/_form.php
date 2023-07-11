@@ -1,4 +1,5 @@
 <?php
+// Fonction qui affiche le formulaire adequat seulon ce que l'on veux faire (se conecter ou s'enregistrer)
 function form($title, $action, $button_name, $text, $link, $button_link)
 {
 ?>

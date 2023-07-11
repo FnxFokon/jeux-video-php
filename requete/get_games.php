@@ -1,4 +1,7 @@
 <?php
+// Fonction pour recupere tous les jeux
+// Avec un argument $console pour prendre que les jeux d'une console
+// et un argument order pour modifier l'ordre des jeux seulon le prix
 function get_all_games($console, $order)
 {
     global $connection;
@@ -92,6 +95,7 @@ function get_all_games($console, $order)
     }
 }
 
+// Fonction pour récupere toutes les consoles et le nombre de jeux pour chacune d'elle
 function get_all_console()
 {
     global $connection;
@@ -123,6 +127,7 @@ function get_all_console()
     }
 }
 
+// Fonction pour afficher le détail d'un jeu on recupere le jeu via son ID
 function get_game_by_id($game)
 {
     global $connection;
@@ -187,6 +192,7 @@ function get_game_by_id($game)
     }
 }
 
+// Fonction pour recupere toutes les consoles d'un même jeu
 function get_all_console_by_game_id($game_id)
 {
     global $connection;
@@ -242,6 +248,7 @@ function get_all_console_by_game_id($game_id)
     }
 }
 
+// Fonction pour récuperé tous les jeux en les triants seulon les notes des médias ou des utilisateurs
 function get_all_games_by_note($note)
 {
     global $connection;
@@ -277,6 +284,8 @@ function get_all_games_by_note($note)
         }
     }
 }
+
+// Fonction pour récuperé tous les jeux en les triants seulon l'age
 function get_all_games_by_age($age)
 {
     global $connection;

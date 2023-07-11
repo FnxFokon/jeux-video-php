@@ -15,6 +15,7 @@
                     Par console
                 </a>
                 <ul class="dropdown-menu active me-1 active me-1 py-2 mt-1 bg-primary">
+                    <!-- Appel de la fonction qui va recuperer tous les consoles et les jeux disponibles par console et qui les afficheras -->
                     <?php get_all_console(); ?>
                 </ul>
             </li>
@@ -58,6 +59,10 @@
                 </ul>
             </li>
             <li class="nav-item zoom">
+                <!-- 
+                    La partie pour se connecter (avec enregistrement dans la bdd) pour pouvoir ajouter des nouveaux jeux n'est pas fini
+                    Je n'ai pas pu la finir chez moi n'ayant pas lando d'installer et venir a l'école était compliqué avec mon mal de dos. 
+                -->
                 <a class="nav-link active me-1" aria-current="page" href="../connexion.php">Log</a>
             </li>
         </ul>
