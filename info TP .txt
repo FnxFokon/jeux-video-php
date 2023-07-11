@@ -42,7 +42,7 @@ BONUS (à faire si tout est terminé):
   => Tri par prix croissant/décroissant
   => Tri par meilleur note (presse et utilisateur)
   => tri par tranche d'age
-  => Pagination (4 jeux par page)
-  => Créer une connexion et pouvoir insérer un nouveau jeu
-  => upload d'images
+  => Pagination (4 jeux par page) => La pagination n'as pas été faite.
+  => Créer une connexion et pouvoir insérer un nouveau jeu => a été a peine commencer et TRES loin d'etre fini
+  => upload d'images => n'a pas été faite
   
